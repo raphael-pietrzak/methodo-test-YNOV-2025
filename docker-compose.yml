@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  mysql:
+    build: .
+    container_name: library_database
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/:/docker-entrypoint-initdb.d/:ro
