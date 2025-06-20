@@ -1,3 +1,5 @@
+// service/DatabaseService.ts
+
 import * as mysql from "mysql2/promise";
 
 export default class DatabaseService {
