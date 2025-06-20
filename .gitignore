@@ -2,3 +2,4 @@ nodes_module@
 .DS_Store
 build/
 dist/
+node_modules/
